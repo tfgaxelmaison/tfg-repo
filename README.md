@@ -8,11 +8,11 @@ El contenido mostrado en este repositorio es todo el código utilizado para mi T
 La finalidad es crear una herramienta que permita evadir completamente cualquier antivirus y que se capaz de ejecutar un shellcode de manera eficaz y sin ninguna alerta o bloqueo del sistema antimalware.
 
 Para ello se ha procedido a realizar 5 tareas diferentes para el mismo shellcode:
-Creación manual del shellcode para sistemas Windows 11.
-Creación manual de un encoder para el shellcode.
-Creación manual de un decoder en ensamblador para el shellcode, que decodee el shellcode automáticamente en memoria.
-Creación manual de un cifrado para el shellcode.
-Creación manual de la herramienta que desencripte el shellcode y lo inyecte en la memoria de un proceso remoto
+* Creación manual del shellcode para sistemas Windows 11.
+* Creación manual de un encoder para el shellcode.
+* Creación manual de un decoder en ensamblador para el shellcode, que decodee el shellcode automáticamente en memoria.
+* Creación manual de un cifrado para el shellcode.
+* Creación manual de la herramienta que desencripte el shellcode y lo inyecte en la memoria de un proceso remoto
 
 ### Creación manual del shellcode
 
