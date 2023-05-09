@@ -43,7 +43,7 @@ Se ha utilizado la librería tiny-Aes-C para cifrar el shellcode del decoder uti
 
 ### Creación manual de la herramienta que desencripte el shellcode y lo inyecte en la memoria de un proceso remoto
 
-En *Inyección de Codigo" se encuentra el programa en C que realiza la descenriptación y inyección del shellcode.
+En *Inyección de Codigo* se encuentra el programa en C que realiza la descenriptación y inyección del shellcode.
 
 Finalmente llega la herramienta final, se trata de un inyector típico con desencriptación.
 Se utiliza nuevamente la librería tiny-AES-C para desencripta el shellcode, se reserva espacio en memoria en un proceos no protegido, se escribe el shellcode en ese espacio y finalmente se crea un thread remoto que tenga la dirección de inicio del shellcode para ejecutarse.
